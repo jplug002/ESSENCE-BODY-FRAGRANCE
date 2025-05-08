@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essence Body Fragrance - Premium Body Sprays</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+      <nav>
+          <div class="logo">Essence Body Fragrance</div>
+          <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="cart-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              <span id="cart-count">0</span>
+          </div>
+          <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+      </nav>
+  </header>
+
+  <main>
+      <section class="hero">
+          <div class="hero-content">
+              <h1>Elevate Your Scent Experience</h1>
+              <p>Premium body sprays crafted for the modern lifestyle</p>
+              <button class="cta-button" onclick="window.location.href='products.html'">Shop Now</button>
+          </div>
+          <div class="hero-image">
+              <img src="ESSENCE.jpg" alt="Premium body spray collection">
+          </div>
+      </section>
+
+      <section class="featured-categories">
+          <h2>Our Collections</h2>
+          <div class="category-grid">
+              <div class="category-card" onclick="window.location.href='products.html#fresh'">
+                  <div class="category-image">
+                      <img src="INTENSE MAN.jpg" alt="fresh sprays">
+                  </div>
+                  <h3>Fresh Collection</h3>
+                  <p>Crisp, invigorating scents for everyday wear</p>
+              </div>
+              <div class="category-card" onclick="window.location.href='products.html#floral'">
+                  <div class="category-image">
+                      <img src="ECLAIRE LATTAFA.jpg" alt="Floral Sprays">
+                  </div>
+                  <h3>Floral Collection</h3>
+                  <p>Elegant, captivating fragrances with floral notes</p>
+              </div>
+              <div class="category-card" onclick="window.location.href='products.html#woody'">
+                  <div class="category-image">
+                      <img src="BARAKKAT ROUGE 540.jpg" alt="Woody Sprays">
+                  </div>
+                  <h3>Woody Collection</h3>
+                  <p>Rich, sophisticated scents with woody undertones</p>
+              </div>
+          </div>
+      </section>
+
+      <section class="featured-products">
+          <h2>Best Sellers</h2>
+          <div class="product-grid">
+              <div class="product-card"  data-category="fresh">
+                  <div class="product-image">
+                      <img src="INTENSE MAN.jpg" alt="INTENSE MAN">
+                  </div>
+                  <h3>INTENSE MAN</h3>
+                  <p>Fresh aquatic scent with hints of sea salt and citrus</p>
+                  <div class="product-price">GH₵300.00</div>
+                  <div class="product-category">Fresh</div>
+                  <button class="add-to-cart">Add to Bag</button>
+              </div>
+              <div class="product-card"  data-category="Fresh">
+                  <div class="product-image">
+                      <img src="MATELOT.jpg" alt="MATELOT">
+                  </div>
+                  <h3>MATELOT</h3>
+                  <p>Delicate blend of jasmine, rose, and lily of the valley</p>
+                  <div class="product-price">GH₵200.00</div>
+                  <div class="product-category">Fresh</div>
+                  <button class="add-to-cart">Add to Bag</button>
+              </div>
+              <div class="product-card"  data-category="woody">
+                  <div class="product-image">
+                      <img src="MOUSUF WARDI.jpg" alt="MOUSUF WARDI">
+                  </div>
+                  <h3>MOUSUF WARDI</h3>
+                  <p>Rich cedar notes with hints of bergamot and amber</p>
+                  <div class="product-price">GH₵250</div>
+                  <div class="product-category">Woody</div>
+                  <button class="add-to-cart">Add to Bag</button>
+              </div>
+          </div>
+          <div class="view-all-container">
+              <a href="products.html" class="view-all-link">View All Products</a>
+          </div>
+      </section>
+
+      <section class="benefits">
+          <div class="benefit-container">
+              <div class="benefit">
+                  <div class="benefit-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                      </svg>
+                  </div>
+                  <h3>Premium Quality</h3>
+                  <p>Carefully crafted sprays using the finest ingredients</p>
+              </div>
+              <div class="benefit">
+                  <div class="benefit-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="1" y="3" width="15" height="13"></rect>
+                          <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                          <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                          <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                      </svg>
+                  </div>
+                  <h3>Fast Delivery</h3>
+                  <p>Quick shipping to get your fragrances to you when you need them</p>
+              </div>
+              <div class="benefit">
+                  <div class="benefit-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                      </svg>
+                  </div>
+                  <h3>Customer Satisfaction</h3>
+                  <p>Your happiness is our priority with our 30-day satisfaction guarantee</p>
+              </div>
+          </div>
+      </section>
+
+      <section class="testimonials">
+          <h2>What Our Customers Say</h2>
+          <div class="testimonial-slider">
+              <div class="testimonial">
+                  <p>"The Midnight Rush spray has become my signature scent. I get compliments everywhere I go!"</p>
+                  <div class="testimonial-author">James K.</div>
+              </div>
+              <div class="testimonial">
+                  <p>"I've tried many body sprays, but Essence's fragrances last longer and smell more authentic than any other brand."</p>
+                  <div class="testimonial-author">Michael T.</div>
+              </div>
+              <div class="testimonial">
+                  <p>"The Fresh Breeze spray is subtle but noticeable. Exactly what I was looking for in a daily fragrance."</p>
+                  <div class="testimonial-author">Sarah L.</div>
+              </div>
+          </div>
+          <div class="testimonial-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+          </div>
+      </section>
+  </main>
+
+  <footer>
+      <div class="footer-bottom">
+          <p>&copy; 2025 Essence Body Fragrance. All rights reserved. <a href="admin.html" class="admin-link">Admin</a></p>
+      </div>
+  </footer>
+
+  <div class="scroll-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
